@@ -1,0 +1,383 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "rublik",sans-serif;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "rublik",sans-serif;
+}
+.heder_area{
+	height: 1000px;
+	background: #D7DBDD;
+	margin: 0px;
+	padding: 0px;
+
+}
+.main_logo{
+	padding-top: 15px;
+	padding-bottom:15px;
+	box-sizing: border-box;
+}
+.main_menu{
+  padding-top: 15px;
+	padding-bottom:15px;
+	box-sizing: border-box;	
+}
+
+.logo{
+height: 40px;
+}
+.main_menu{
+	float: right;
+
+}
+.main_menu ul{
+	list-style: none;
+}
+
+.main_menu ul li{
+	display: inline-block;
+	padding-left: 20px;
+}
+.main_menu ul li:first-child{
+	padding-left: 0px;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	color: #D35400;
+	text-transform: capitalize;
+	font-family: italic;
+	font-size: 18px;
+	}
+.main_menu> ul> li> a:hover{
+	color: #1C2833;
+	width: 400;
+	transition: 2s;
+}
+.banner{
+	padding-top: 30px;
+	padding: 0px;
+  margin: auto;
+}
+.banner-tham{
+	width: 100%;
+	height: 800px;
+}
+/*-----------------------start servises ares----------*/
+.servises{
+	background: #fff;
+	height: 1007px;
+	margin: 0px;
+	padding: 0px;
+}
+.title h2{
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: #D8A30B;
+	text-transform: capitalize;
+}
+.servise{
+ background: green;
+ height: 500px;
+ width: 100%;	
+}
+.servise h2{
+	text-align:center;
+	padding: 15px 0px;
+
+}
+.servise p{
+	text: center;
+	font-size: 15px;
+	padding: 15px 20px;
+	color: #ffffff;
+
+}
+.servise_thim{
+	padding: 15px 20px;
+	height: 150px;
+	align-items:center;
+	width: 100%;
+}
+.sv_btn{
+	padding: 15px 20px;
+
+}
+.servise-btn{
+	background: #E10E27;
+	padding: 10px 15px;
+	border: 0px;
+	border-radius: 10px;
+
+}
+.servise-btn:hover{
+ background: #239B56;
+
+}
+
+.servise-btn a{
+	text-decoration: none;
+	color:beige;
+	text-transform: capitalize;
+}
+.about_services{
+	width: 100%;
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.left_menu{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+.left_menu h2{
+	color: black;
+
+}
+.left_menu p{
+	color: black;
+
+}
+.left_menu .sv_btn{
+	padding: 15px 0px;
+}
+.left_menu .servise-btn{
+	background: #E10E27;
+	padding: 10px 15px;
+	border: 0px;
+	border-radius: 10px;
+	}
+.right_menu{
+	height: 300px;
+	width: 1000px;
+}
+.right_menu h2{
+	color: black;
+	text-transform: capitalize;
+}
+.right_menu ul{
+	list-style: none;
+
+}
+.right_menu ul li{
+	background-image:url(".../assets/images/arrow.png");
+	border-bottom: 2px solid #fff;
+	margin-bottom: 10px;
+}
+  
+.right_menu ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.right_menu ul li a i{
+	padding-right: 5px;
+}
+  
+.right_menu ul li a:hover{
+	color: #CF384A;
+	transition: 1s;
+
+}
+/*---------futer-area-start----*/
+.futer{
+	padding: 10px;
+	height: 40px;
+	background: #145A32;
+}
+.futer h6{
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}
+
+/*---------futer-area-end----*/
+
+/*---------about-area-start----*/
+.my-about{
+	display: flex;
+}
+.about_banner{
+	position: relative;
+}
+.about_banner h2{
+	position: absolute;
+	top: 8%;
+	padding-left: 8%;
+	z-index: 2;
+	font-size: 60px;
+	font-weight: 500;
+	color: #76D7C4;
+	text-shadow: 1px 1px #5DADE2;
+	font-style: italic;
+}
+
+/*---------about-area-end----*/
+
+/*---------Services-area-start----*/
+.our_servises{
+	padding: 0px;
+	margin: 0px;
+	background-size: cover;
+	box-sizing: border-box;
+	height: 1000px;
+
+}
+.servise_thambel{
+	padding: 0px;
+	margin: 0px;
+	background: #27AE60;
+	height: 400px;
+	
+
+}
+.servise_thambel h2{
+	text-align: center;
+	padding-top: 30px;
+
+}
+.servise_thambel p{
+	padding: 10px 15px;;
+
+}
+.our_thim{
+	height: 100px;
+	width: 100%;
+}
+.servise_dittles{
+	display: flex;
+	padding-bottom: 20px;
+}
+/*---------Services-area-end----*/
+
+/*---------geallery-area-start----*/
+.geallery_banner{
+	position: relative;
+}
+.geallery_banner h2{
+	position: absolute;
+	top: 47%;
+	padding-left: 38%;
+	z-index: 2;
+	color: #fff;
+	text-shadow: 2px 2px #1ABC9C;
+	font-size: 50px;
+
+}
+.gallery-title h2{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 40px;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-style: italic;
+	text-shadow: 1px 1px #F5B041;
+}
+.gallery{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+
+}
+.gallery iframe{
+	height: 170px;
+  width: 100%;
+}
+
+/*---------geallery-area-end----*/
+
+
+/*---------contact area start----*/
+.contact_banner{
+	position: relative;
+}
+.contact_banner h2{
+	position: absolute;
+	top: 42%;
+	font-size: 70px;
+	font-weight: 500;
+	left: 38%;
+	text-transform: capitalize;
+	font-style: italic;
+	color: #F4F6F7;
+	text-shadow: 2px 2px #F5B041;
+}
+.froms h2{
+	padding-top: 30px;
+	font-style: italic;
+}
+.froms input{
+	width: 100%;
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.froms textarea{
+	width: 100%;
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
+	height: 200px;
+
+
+}
+.froms input[type="submit"]{
+	color: #fff;
+	background-color: tomato;
+	text-transform: capitalize;
+	width: auto;
+	padding: 10px 40px;
+	border: 0px;
+	border-radius: 5%;
+	transition: 2s;
+	font-style: italic;
+
+}
+.froms input[type="submit"]:hover {
+	color: black;
+	background-color:red;
+}
+.contact-address h2{
+	padding-top: 30px;
+	font-style: italic;
+
+}
+.contact-address ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.contact-address ul li{
+	padding-top: 10px;
+	
+}
+.contact-address ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	text-transform: capitalize;
+	
+}
+.contact-address> ul> li> a:hover{
+	text-decoration: none;
+	color:#A04000 ;
+	
+}
+.contact-address ul li i{
+	padding-right: 5px;
+	color: black;
+}
+
+
+
+/*---------contact area end----*/
